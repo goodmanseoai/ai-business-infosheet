@@ -6,13 +6,21 @@
 
 호주에서 가게를 하는 한인 사장님을 기준으로 만들었지만, 어느 나라 어느 업종이든 칸만 맞춰 쓰면 됩니다.
 
+## 30초 시작
+
+1. [빈 양식 열기](business-info.md) → 오른쪽 위 복사 버튼(Copy raw file)을 누릅니다.
+2. 메모장이나 노션에 붙여 넣고 아는 칸만 채웁니다.
+3. ChatGPT나 Claude에 붙여 넣고 “이게 내 사업 정보야. 빈칸을 하나씩 질문해 줘”라고 보냅니다.
+
+깃허브가 처음이라면 [설명서 PDF](ai-business-infosheet.pdf)를 열고 오른쪽 위 내려받기 버튼을 누르세요. 가입하지 않아도 됩니다.
+
 ## 받기
 
 | 파일 | 내용 |
 | --- | --- |
 | [business-info.md](business-info.md) | 빈 양식. 복사해서 채웁니다 |
 | [examples/sunny-hair-studio.md](examples/sunny-hair-studio.md) | 다 채운 예시 (가상의 브리즈번 한인 미용실) |
-| [ai-business-infosheet.pdf](ai-business-infosheet.pdf) | 설명서 PDF (A4 6쪽) |
+| [ai-business-infosheet.pdf](ai-business-infosheet.pdf) | 설명서 PDF (A4 7쪽) |
 
 ## 용도
 
@@ -140,16 +148,34 @@
 
 양식을 준 뒤에는 할 일, 길이, 지킬 것을 한 줄씩 더해 시킵니다.
 
+**사이트**
+
+```text
+business-info.md를 기준으로 사이트 첫 화면 문구를 써 줘. 제목 한 줄, 설명 두 줄, 버튼 문구 하나. 컨셉과 대표 상품을 쓰고, 버튼은 예약·결제 방법에 맞춰 줘. 양식에 없는 사실은 넣지 마.
+```
+
+**구글 비즈니스 프로필**
+
 ```text
 business-info.md를 기준으로 구글 비즈니스 프로필 소개글을 영어로 써 줘. 750자 안쪽. 말투와 금지 표현 규칙을 지키고, 양식에 없는 사실은 넣지 마.
 ```
+
+**광고**
 
 ```text
 business-info.md를 기준으로 페이스북 광고 문구 3개를 써 줘. 주 고객층과 고객 표현을 쓰고, 안 하는 것과 금지 표현은 넣지 마.
 ```
 
+**블로그**
+
 ```text
 business-info.md의 자주 묻는 질문과 고객 표현으로 블로그 글 제목 5개를 제안해 줘.
+```
+
+**영상**
+
+```text
+business-info.md를 기준으로 30초 세로 영상 대본을 써 줘. 첫 3초는 고객 고민으로 시작하고, 강점 하나와 대표 상품을 말한 뒤 예약 방법으로 끝내 줘. 보유 자료에 있는 것만 장면으로 쓰고, 금지 표현은 넣지 마.
 ```
 
 ## AI 결과물 확인
@@ -161,8 +187,16 @@ business-info.md의 자주 묻는 질문과 고객 표현으로 블로그 글 �
 
 ## 라이선스
 
-[CC BY 4.0](LICENSE). 출처(AI 비즈니스 인포시트와 이 저장소 주소)를 밝히면 누구나 쓰고, 고치고, 다시 배포할 수 있습니다.
+[CC BY 4.0](LICENSE). 출처를 밝히면 누구나 쓰고, 고치고, 다시 배포할 수 있습니다. 강의나 자료에 넣을 때는 아래 한 줄을 함께 적어 주세요.
 
-## 만든 곳
+```text
+AI 비즈니스 인포시트 © 2026 굳맨(goodmanseoai), CC BY 4.0, https://github.com/goodmanseoai/ai-business-infosheet
+```
 
-AI로 하는 호주 온라인 마케팅 노하우집 · 2026년 11월
+## 만든 사람
+
+굳맨 ([goodmanseoai](https://github.com/goodmanseoai))
+
+- 유튜브: [AI로 딸깍 뚝딱 (@ai_goodman)](https://www.youtube.com/@ai_goodman)
+- 이 양식은 「AI로 하는 호주 온라인 마케팅 노하우집」의 첫 단계입니다. 채운 양식으로 사이트, 구글 지도, 광고, 블로그를 AI에게 맡기는 방법을 노하우집에서 다룹니다.
+- 고칠 점이나 추가할 칸은 [Issues](https://github.com/goodmanseoai/ai-business-infosheet/issues)에 남겨 주세요.
